@@ -12,6 +12,7 @@ console.log(process.env.MONGO_URI);
 
 app.use(express.json());
 app.use(cors());
+// app.use(morgan("tiny"));
 app.use(express.json());
 app.use(router);
 
